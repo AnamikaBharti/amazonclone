@@ -42,10 +42,7 @@ amazon-clone/
 │
 ├── index.html
 ├── style.css
-├── script.js
-├── assets/
-│   ├── images/
-│   └── icons/
+├── images/
 └── README.md
 ```
 
