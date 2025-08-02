@@ -217,4 +217,78 @@ text-align: center;
     .copyright{
         padding-top:5px ;
 
+
     }
+@media screen and (max-width: 1024px) {
+    .nav-search {
+        width: 500px;
+    }
+    .panel-ops {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .nav-search {
+        width: 90%;
+        margin-top: 10px;
+    }
+    .panel {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .panel-ops {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 90%;
+    }
+    .footpanel2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .footpanel2 ul {
+        margin: 20px 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-logo, .nav-cart, .nav-address, .nav-signin, .nav-returns {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+    .nav-search {
+        flex-direction: column;
+        height: auto;
+    }
+    .search-input, .search-icon, .seach-select {
+        width: 100%;
+    }
+    .panel-ops p {
+        display: block;
+        margin: 5px 0;
+    }
+    .hero-section {
+        height: 250px;
+        background-position: center;
+    }
+    .box {
+        width: 95%;
+    }
+}
